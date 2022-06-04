@@ -3,11 +3,11 @@ import "../styles/projectCard.css";
 const ProjectCard = () => {
   return (
     <article className="project-card">
-      <img src="https://picsum.photos/300" alt="placeholder" />
+      <img src="https://picsum.photos/600" alt="placeholder" />
       <section className="project-description">
         <h4>Project Name</h4>
         <p>
-          Short descrpition of the project. Just a couple sentences will do.
+          Short description of the project. Just a couple sentences will do.
         </p>
       </section>
     </article>
