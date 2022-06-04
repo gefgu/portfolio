@@ -1,15 +1,12 @@
 import "./styles/app.css";
+import WorkSection from "./components/WorkSection";
 
 function App() {
   return (
     <div className="container">
       <section>
         <h2>About Me</h2>
-      </section>
-      <section>
-        <h2>My work</h2>
-      </section>
-      <section>
+        <WorkSection />
         <h2>Contact me</h2>
       </section>
     </div>
