@@ -1,0 +1,14 @@
+.contact {
+  padding: 32px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-around;
+  background-color: #0891b3;
+  color: white;
+}
+
+.contact picture img {
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+}
