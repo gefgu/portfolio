@@ -1,7 +1,9 @@
+import "../styles/projectCard.css";
+
 const ProjectCard = () => {
   return (
     <article className="project-card">
-      <img src="https://picsum.photos/200/300" alt="placeholder" />
+      <img src="https://picsum.photos/300" alt="placeholder" />
       <section className="project-description">
         <h4>Project Name</h4>
         <p>

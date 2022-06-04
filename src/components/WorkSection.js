@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import "../styles/workSection.css";
 
 const WorkSection = () => {
   return (
