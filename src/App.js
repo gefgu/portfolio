@@ -1,15 +1,14 @@
 import "./styles/app.css";
 import WorkSection from "./components/WorkSection";
 import ContactSection from "./components/ContactSection";
+import AboutSection from "./components/AboutSection";
 
 function App() {
   return (
     <div className="container">
-      <section>
-        <h2>About Me</h2>
-        <WorkSection />
-        <ContactSection />
-      </section>
+      <AboutSection />
+      <WorkSection />
+      <ContactSection />
     </div>
   );
 }
