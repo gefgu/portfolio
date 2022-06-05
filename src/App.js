@@ -7,7 +7,7 @@ function App() {
     <div className="container">
       <section>
         <h2>About Me</h2>
-        {/* <WorkSection /> */}
+        <WorkSection />
         <ContactSection />
       </section>
     </div>
