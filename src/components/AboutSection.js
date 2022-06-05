@@ -1,3 +1,5 @@
+import "../styles/aboutSection.css";
+
 const AboutSection = () => {
   return (
     <article className="about">
