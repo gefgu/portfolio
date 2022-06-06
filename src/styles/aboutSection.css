@@ -29,9 +29,13 @@
 .about .description {
   max-width: 600px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 80%;
   padding: 8px;
+}
+
+.about .description h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  opacity: 0.9;
+  font-weight: lighter;
 }

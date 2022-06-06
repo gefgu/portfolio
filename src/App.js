@@ -1,3 +1,4 @@
+import "./styles/fonts.css";
 import "./styles/app.css";
 import WorkSection from "./components/WorkSection";
 import ContactSection from "./components/ContactSection";
