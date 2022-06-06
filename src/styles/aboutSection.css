@@ -30,7 +30,8 @@
   max-width: 600px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.25);
   height: 80%;
-  padding: 8px;
+  padding: 16px;
+  padding-right: 32px;
 }
 
 .about .description h2 {
@@ -38,4 +39,10 @@
   font-size: 2rem;
   opacity: 0.9;
   font-weight: lighter;
+}
+
+.about .description p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-align: justify;
 }
