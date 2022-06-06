@@ -2,19 +2,35 @@
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.project-card img {
+.project-card > img {
   width: 100%;
   max-height: 500px;
   object-fit: cover;
 }
 
 .project-card .project-description {
-  padding: 8px 16px;
+  padding: 16px 24px;
 }
 
 .project-card h4 {
   font-family: "Playfair Display", serif;
   font-weight: lighter;
   font-size: 1.5rem;
-  margin-top: 8px;
+  margin: 0;
+}
+
+.project-description .project-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0 24px;
+}
+
+.project-description .icons {
+  display: flex;
+  gap: 20px;
+}
+
+.project-description .icons img {
+  width: 30px;
 }
