@@ -16,6 +16,22 @@ const AboutSection = () => {
           interdum vulputate, magna urna pulvinar erat, accumsan venenatis urna
           nisl eget justo.{" "}
         </p>
+        <div className="icons">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="github"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+            alt="linkedin"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+            alt="twitter"
+          />
+        </div>
       </section>
     </article>
   );
