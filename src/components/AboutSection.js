@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <article className="about">
       <div className="profile">
-        <img src="https://picsum.photos/400" alt="placeholder" />
+        <img src="https://picsum.photos/600" alt="placeholder" />
         <h1>Ashely Williams</h1>
       </div>
       <section className="description">
