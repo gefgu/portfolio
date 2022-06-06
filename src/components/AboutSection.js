@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="floor-overlay">
           <img src="https://picsum.photos/600" alt="placeholder" />
         </div>
-        <h1>Ashely Williams</h1>
+        <h1>Ashley Williams</h1>
       </div>
       <section className="description">
         <h2>About Me</h2>

@@ -31,14 +31,16 @@
   margin-bottom: 8px;
   right: 8px;
   color: white;
-  font-size: 2.25rem;
+  font-size: 3.5rem;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+  font-family: "Playfair Display", serif;
 }
 
 .about .description {
   max-width: 600px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.25);
   height: 80%;
-  padding: 32px 32px 32px 16px;
+  padding: 32px 32px 32px 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -60,7 +62,7 @@
 
 .description .icons {
   display: flex;
-  gap: 16px;
+  gap: 32px;
   align-self: flex-end;
 }
 
