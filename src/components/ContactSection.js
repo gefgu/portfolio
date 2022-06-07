@@ -1,4 +1,6 @@
 import "../styles/contactSection.css";
+import { BiPhone } from "react-icons/bi";
+import { RiMailLine } from "react-icons/ri";
 
 const ContactSection = () => {
   return (
@@ -13,8 +15,12 @@ const ContactSection = () => {
           1234 Random Road <br /> Random Town, California 12345
         </address>
         <section className="contact-info">
-          <address>555-555-5555</address>
-          <address>asheleywilliams.is.not.real@gmail.com</address>
+          <address>
+            <BiPhone /> 555-555-5555
+          </address>
+          <address>
+            <RiMailLine /> asheleywilliams.is.not.real@gmail.com
+          </address>
         </section>
       </section>
       <picture>
