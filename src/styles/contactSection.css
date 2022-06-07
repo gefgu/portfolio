@@ -24,7 +24,12 @@
   font-style: normal;
   display: flex;
   align-items: center;
-  gap: 8px
+  gap: 8px;
+}
+
+.information address,
+.information p {
+  font-size: 1.25rem;
 }
 
 .contact picture img {
