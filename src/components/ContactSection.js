@@ -3,7 +3,7 @@ import "../styles/contactSection.css";
 const ContactSection = () => {
   return (
     <section className="contact">
-      <section>
+      <section className="information">
         <h2>Contact me</h2>
         <p>
           Please get in touch if you think our work could be mutually
@@ -18,7 +18,7 @@ const ContactSection = () => {
         </section>
       </section>
       <picture>
-        <img src="https://picsum.photos/600/400" alt="placeholder" />
+        <img src="https://picsum.photos/900/500" alt="placeholder" />
       </picture>
     </section>
   );
