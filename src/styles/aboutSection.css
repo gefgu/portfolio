@@ -14,6 +14,7 @@
 .floor-overlay {
   display: inline-block;
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  
 }
 
 .profile img {
@@ -23,6 +24,7 @@
   position: relative;
   z-index: -1;
   display: block;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .profile h1 {
