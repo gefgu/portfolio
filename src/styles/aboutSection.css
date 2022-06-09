@@ -1,8 +1,30 @@
 .about {
-  padding: 32px;
+  padding: 128px 32px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   align-items: center;
+  position: relative;
+}
+
+.blue-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0891b3;
+  z-index: -4;
+}
+
+.white-triangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  background-image: linear-gradient(to top left, transparent 50%, #0891b3 0);
+  z-index: -2;
 }
 
 .profile {
@@ -45,6 +67,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: white;
 }
 
 .about .description h2 {

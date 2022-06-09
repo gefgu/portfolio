@@ -3,6 +3,8 @@ import "../styles/aboutSection.css";
 const AboutSection = () => {
   return (
     <article className="about">
+      <div className="blue-background"></div>
+      <div className="white-triangle"></div>
       <div className="profile">
         <div className="floor-overlay">
           <img src="https://picsum.photos/600" alt="placeholder" />
