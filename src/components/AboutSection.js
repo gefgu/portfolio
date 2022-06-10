@@ -9,32 +9,36 @@ const AboutSection = () => {
         <div className="floor-overlay">
           <img src="https://picsum.photos/600" alt="placeholder" />
         </div>
-        <h1>Ashley Williams</h1>
+        <h1>Gustavo Santos</h1>
       </div>
       <section className="description">
         <h2>About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam
-          sed ipsum hendrerit dapibus. Phasellus imperdiet feugiat quam sed
-          elementum. Aliquam erat volutpat. Suspendisse pulvinar, felis luctus
-          interdum vulputate, magna urna pulvinar erat, accumsan venenatis urna
-          nisl eget justo.{" "}
+          Hi! I'm Gustavo. A front-end developer focused on learning more about
+          web development and best practices. I'm currently going through The
+          Odin Project and expect to build amazing projects in the future.{" "}
         </p>
         <div className="icons">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            alt="github"
-          />
+          <a href="https://github.com/gefgu">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="github"
+            />
+          </a>
 
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-            alt="linkedin"
-          />
+          <a href="https://www.linkedin.com/in/gustavobruno-developer/">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+              alt="linkedin"
+            />
+          </a>
 
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
-            alt="twitter"
-          />
+          <a href="https://twitter.com/codewithgustavo">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+              alt="twitter"
+            />
+          </a>
         </div>
       </section>
     </article>
