@@ -20,11 +20,22 @@
   font-weight: lighter;
 }
 
-.information address {
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.information address, .information a {
   font-style: normal;
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.information address a {
+  color: white;
+  text-decoration: none;
 }
 
 .information address,
@@ -37,4 +48,14 @@
   max-width: 900px;
   height: 100%;
   object-fit: cover;
+}
+
+.icons {
+  display: flex;
+  gap: 32px;
+  align-self: flex-start;
+}
+
+.icons img {
+  width: 45px;
 }
