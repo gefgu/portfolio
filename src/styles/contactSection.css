@@ -5,6 +5,7 @@
   justify-content: space-between;
   background-color: #0891b3;
   color: white;
+  flex-wrap: wrap;
 }
 
 .contact .information {
@@ -45,7 +46,6 @@
 
 .contact picture img {
   width: 100%;
-  max-width: 900px;
   height: 100%;
   object-fit: cover;
 }
@@ -58,4 +58,11 @@
 
 .icons img {
   width: 45px;
+}
+
+
+@media (max-width: 980px) {
+  .contact {
+    padding: 32px;
+  }
 }
