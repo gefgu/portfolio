@@ -1,5 +1,4 @@
 import "../styles/contactSection.css";
-import { BiPhone } from "react-icons/bi";
 import { RiMailLine } from "react-icons/ri";
 
 const ContactSection = () => {
