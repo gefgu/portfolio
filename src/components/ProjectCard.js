@@ -1,12 +1,12 @@
 import "../styles/projectCard.css";
 
-const ProjectCard = ({ description, liveDemoLink, codeLink, imagePath }) => {
+const ProjectCard = ({ description, liveDemoLink, codeLink, imagePath, projectName }) => {
   return (
     <article className="project-card">
       <img src={imagePath} alt="placeholder" />
       <section className="project-description">
         <div className="project-heading">
-          <h4>Project Name</h4>
+          <h4>{projectName}</h4>
           <div className="icons">
             <a href={codeLink}>
               <img
