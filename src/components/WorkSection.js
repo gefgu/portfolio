@@ -13,6 +13,36 @@ const WorkSection = () => {
           codeLink="https://github.com/gefgu/where-is-waldo"
           imagePath="./where-waldo.png"
         />
+        <ProjectCard
+          description="A one-player Battleship game. You can drag-and-drop your ships and fight with an smart bot."
+          liveDemoLink="https://gefgu.github.io/battleship/"
+          codeLink="https://github.com/gefgu/battleship"
+          imagePath="./battleship.png"
+        />
+        <ProjectCard
+          description="The CV Application app. It is an React app to build a resumé. In it I learned about props and state."
+          liveDemoLink="https://gefgu.github.io/cv-application/"
+          codeLink="https://github.com/gefgu/cv-application"
+          imagePath="./cv-application.png"
+        />
+        <ProjectCard
+          description="It displays weather data about a location using the openweatherAPI with async and promises."
+          liveDemoLink="https://gefgu.github.io/weather-app/"
+          codeLink="https://github.com/gefgu/weather-app"
+          imagePath="./weather.png"
+        />
+        <ProjectCard
+          description="A grid-based drawing app made using plain JavaScript. Built following the guidelines from The Odin Project."
+          liveDemoLink="https://gefgu.github.io/odin-Etch-a-Sketch/"
+          codeLink="https://github.com/gefgu/odin-Etch-a-Sketch"
+          imagePath="./etch-a-sketch.png"
+        />
+        <ProjectCard
+          description="A tic-tac-toe game built using plain javascript with an AI based on the min-max algorithm. It was made following The Odin Project's guidelines."
+          liveDemoLink="https://gefgu.github.io/odin-tic-tac-toe/"
+          codeLink="https://github.com/gefgu/odin-tic-tac-toe"
+          imagePath="./tic_tac_toe.png"
+        />
       </section>
     </section>
   );
