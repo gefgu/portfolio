@@ -40,9 +40,8 @@ const ContactSection = () => {
           </a>
         </div>
       </section>
-      <picture>
-        <img src="https://picsum.photos/900/500" alt="placeholder" />
-      </picture>
+
+      <img src="./contact.jpg" alt="placeholder" />
     </section>
   );
 };
