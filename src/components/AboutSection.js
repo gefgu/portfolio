@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="white-triangle"></div>
       <div className="profile">
         <div className="floor-overlay">
-          <img src="https://picsum.photos/600" alt="placeholder" />
+          <img src="./gustavo.jpg" alt="placeholder" />
         </div>
         <h1>Gustavo Santos</h1>
       </div>
