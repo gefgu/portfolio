@@ -11,6 +11,7 @@
   line-height: 1.75rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 32px;
 }
 
@@ -23,7 +24,7 @@
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 32px;
 }
 
 .information address, .information a {
@@ -51,7 +52,7 @@
 
 .icons {
   display: flex;
-  gap: 32px;
+  gap: 64px;
   align-self: flex-start;
 }
 
