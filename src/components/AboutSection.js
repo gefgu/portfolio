@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="white-triangle"></div>
       <div className="profile">
         <div className="floor-overlay">
-          <img src="./gustavo.jpg" alt="placeholder" />
+          <img src="./portfolio/gustavo.jpg" alt="placeholder" />
         </div>
         <h1>Gustavo Santos</h1>
       </div>

@@ -41,7 +41,7 @@ const ContactSection = () => {
         </div>
       </section>
 
-      <img src="./contact.jpg" alt="placeholder" />
+      <img src="./portfolio/contact.jpg" alt="placeholder" />
     </section>
   );
 };
