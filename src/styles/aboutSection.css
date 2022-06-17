@@ -1,7 +1,8 @@
 .about {
   padding: 128px 32px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
@@ -31,6 +32,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  max-width: min(100%, 500px);
 }
 
 .floor-overlay {
@@ -43,9 +45,8 @@
 }
 
 .profile img {
-  max-width: 500px;
-  height: 100%;
-  object-fit: cover;
+  max-width: min(100%, 500px);
+  height: auto;
   position: relative;
   z-index: -1;
   display: block;
@@ -70,6 +71,7 @@
   flex-direction: column;
   justify-content: space-around;
   background-color: white;
+  gap: 32px;
 }
 
 .about .description h2 {
@@ -104,14 +106,16 @@
 
 @media (min-width: 1100px) {
   .profile {
-    justify-content: flex-end;
+    justify-self: flex-end;
   }
 
   .profile h1 {
     right: 8px;
   }
+}
 
-  .about .description {
-    height: 80%;
+@media (max-width: 550px) {
+  .about {
+    padding: 0;
   }
 }
