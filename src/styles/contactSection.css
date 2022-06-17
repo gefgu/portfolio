@@ -65,3 +65,14 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 550px) {
+  .contact {
+    padding: 0;
+    gap: 32px;
+  }
+
+  .information {
+    padding: 16px;
+  }
+}
