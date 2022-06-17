@@ -29,3 +29,10 @@
     gap: 128px;
   }
 }
+
+@media (max-width: 550px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
