@@ -1,5 +1,6 @@
 import "../styles/contactSection.css";
 import { RiMailLine } from "react-icons/ri";
+import contactImage from "../assets/contact.jpg";
 
 const ContactSection = () => {
   return (
@@ -41,7 +42,7 @@ const ContactSection = () => {
         </div>
       </section>
 
-      <img src="./portfolio/contact.jpg" alt="placeholder" />
+      <img src={contactImage} alt="placeholder" />
     </section>
   );
 };

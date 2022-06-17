@@ -1,4 +1,5 @@
 import "../styles/aboutSection.css";
+import gustavo from "../assets/gustavo.jpg"
 
 const AboutSection = () => {
   return (
@@ -7,7 +8,7 @@ const AboutSection = () => {
       <div className="white-triangle"></div>
       <div className="profile">
         <div className="floor-overlay">
-          <img src="./portfolio/gustavo.jpg" alt="placeholder" />
+          <img src={gustavo} alt="placeholder" />
         </div>
         <h1>Gustavo Santos</h1>
       </div>
