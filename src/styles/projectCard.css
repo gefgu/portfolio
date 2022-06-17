@@ -4,7 +4,7 @@
 
 .project-card > img {
   width: 100%;
-  max-height: 500px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -33,4 +33,8 @@
 
 .project-description .icons img {
   width: 30px;
+}
+
+.project-description p {
+  font-size: 1.1rem;
 }

@@ -24,4 +24,8 @@
   .work {
     margin: 128px 8px;
   }
+
+  .projects {
+    gap: 128px;
+  }
 }
